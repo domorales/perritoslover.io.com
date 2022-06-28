@@ -64,10 +64,4 @@ input[type='button'] {
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
-	#header_logo {
-		justify-content: center;
-	}
-	#header_button {
-		display: none !important;
-	}
 }
