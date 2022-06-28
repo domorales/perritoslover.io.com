@@ -49,6 +49,10 @@
 	background-color: var(--second-bg-color);
 }
 
+.second_section_feature {
+	margin: 3rem;
+}
+
 @media screen and (max-width: 1000px) {
 	#first_section_img_dog1 {
 		display: none;
