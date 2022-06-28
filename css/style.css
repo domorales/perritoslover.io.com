@@ -40,9 +40,10 @@
 	margin-bottom: 10rem;
 }
 
-#first_section_container_button input[type='button'] {
-	background-color: rgba(7, 59, 76, 1);
+input[type='button'] {
+	background-color: var(--button-bg-color);
 	color: #ffffff;
+	height: 3rem;
 }
 
 #second_section {
@@ -57,7 +58,16 @@
 	#first_section_img_dog1 {
 		display: none;
 	}
-	#first_section_img {
+
+	#first_section {
+		background-image: url('../assets/dog_top2.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	#header_logo {
 		justify-content: center;
+	}
+	#header_button {
+		display: none !important;
 	}
 }
