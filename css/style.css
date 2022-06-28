@@ -1,0 +1,59 @@
+:root {
+	--main-bg-color: #118ab2;
+	--second-bg-color: #ffce5e;
+	--button-bg-color: #073b4c;
+	--nav-bg-color: #ffffff;
+	--font-main-title: #ffffff;
+	--font-main-subtitle: #000000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 14px;
+}
+
+#main {
+	background-color: var(--main-bg-color);
+}
+
+#header {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-brand {
+	font-size: 1.5rem;
+}
+
+#first_section {
+	background-color: var(--main-bg-color);
+}
+
+#first_section_img {
+	height: 100%;
+}
+
+#first_section_container_button {
+	background-color: rgba(7, 59, 76, 0.4);
+	border-radius: 4px;
+	margin-bottom: 10rem;
+}
+
+#first_section_container_button input[type='button'] {
+	background-color: rgba(7, 59, 76, 1);
+	color: #ffffff;
+}
+
+#second_section {
+	background-color: var(--second-bg-color);
+}
+
+@media screen and (max-width: 1000px) {
+	#first_section_img_dog1 {
+		display: none;
+	}
+	#first_section_img {
+		justify-content: center;
+	}
+}
