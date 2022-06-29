@@ -30,8 +30,16 @@ h2 {
 h3 {
 	font-family: 'Poppins';
 	font-weight: 600;
-	font-size: 48px;
+	font-size: 3.7rem;
 	color: var(--button-bg-color);
+}
+
+h4 {
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 3.2rem;
+	color: var(--button-bg-color);
+	margin-top: 4rem !important;
 }
 
 p {
@@ -40,6 +48,7 @@ p {
 	font-weight: 100;
 	font-size: 20px;
 	color: var(--button-bg-color);
+	text-align: justify;
 }
 
 #main {
@@ -75,18 +84,48 @@ p {
 	margin-bottom: 10rem;
 }
 
+#first_section_container_button_down {
+	position: relative;
+}
+
+@keyframes down {
+	from {
+		left: 0;
+	}
+	to {
+		left: 100%;
+	}
+}
 button {
 	background-color: #e63946 !important;
 	color: #ffffff;
-	height: 4rem;
-	flex-basis: 300px;
+	flex-basis: 60px;
+	width: 13rem;
 	font-size: 1.5rem !important;
 	font-family: 'Poppins';
-	font-weight: 200;
+	font-weight: 400;
+	text-align: center;
+}
+
+#first_section_container_button a {
+	background-color: #e63946 !important;
+	color: #ffffff;
+	flex-basis: 60px;
+	width: 10rem;
+	font-size: 1.5rem !important;
+	font-family: 'Poppins';
+	font-weight: 400;
+	text-align: center;
 }
 
 #second_section {
 	background-color: var(--second-bg-color);
+}
+
+#second_section p {
+	font-family: 'Poppins';
+	font-weight: 100;
+	font-size: 1.7rem;
 }
 
 .second_section_feature {
