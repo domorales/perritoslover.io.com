@@ -8,9 +8,6 @@
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
@@ -19,13 +16,13 @@
 h1 {
 	font-family: 'Poppins';
 	font-weight: 600;
-	font-size: 90px;
+	font-size: 5rem;
 }
 
 h2 {
 	font-family: 'Poppins';
 	font-weight: 300;
-	font-size: 30px;
+	font-size: 2.4rem;
 }
 
 h3 {
@@ -153,6 +150,11 @@ button {
 }
 
 @media screen and (max-width: 1000px) {
+	* {
+		font-size: 11px;
+		font-family: 'Poppins', sans-serif;
+		scroll-behavior: smooth;
+	}
 	#first_section_img_dog1 {
 		display: none;
 	}
