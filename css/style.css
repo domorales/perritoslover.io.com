@@ -13,6 +13,7 @@
 	border: 0;
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
 }
 
 h1 {
@@ -43,10 +44,10 @@ h4 {
 }
 
 p {
-	padding-top: 30px;
+	padding-top: 2rem;
 	font-family: 'Poppins';
-	font-weight: 100;
-	font-size: 20px;
+	font-weight: 600;
+	font-size: 3rem;
 	color: var(--button-bg-color);
 	text-align: justify;
 }
@@ -86,16 +87,19 @@ p {
 
 #first_section_container_button_down {
 	position: relative;
+	animation: down 2s infinite;
 }
 
 @keyframes down {
-	from {
-		left: 0;
+	0% {
+		top: -50px;
+		opacity: 60%;
 	}
-	to {
-		left: 100%;
+	100% {
+		top: 10px;
 	}
 }
+
 button {
 	background-color: #e63946 !important;
 	color: #ffffff;
@@ -105,6 +109,22 @@ button {
 	font-family: 'Poppins';
 	font-weight: 400;
 	text-align: center;
+}
+
+#header_button_footer {
+	animation: beat 3s infinite;
+}
+
+@keyframes beat {
+	0% {
+		transform: scale(1);
+	}
+	66% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 
 #first_section_container_button a {
@@ -142,4 +162,10 @@ button {
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+}
+
+#header_button_footer_text {
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 2rem;
 }
