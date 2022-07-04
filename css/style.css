@@ -7,7 +7,7 @@
 	--font-main-subtitle: #000000;
 }
 
-* {
+html {
 	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
@@ -16,13 +16,13 @@
 h1 {
 	font-family: 'Poppins';
 	font-weight: 600;
-	font-size: 5rem;
+	font-size: 4.5rem;
 }
 
 h2 {
 	font-family: 'Poppins';
 	font-weight: 300;
-	font-size: 2.4rem;
+	font-size: 2.1rem;
 }
 
 h3 {
@@ -72,6 +72,7 @@ p {
 
 #first_section {
 	background-color: var(--main-bg-color);
+	height: 800px;
 }
 
 #first_section_img {
